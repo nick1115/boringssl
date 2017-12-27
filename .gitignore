@@ -1,32 +1,24 @@
-# Prerequisites
-*.d
+build/
+ssl/test/runner/runner
+*.swp
+*.swo
+doc/*.html
+doc/doc.css
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+util/bot/android_tools
+util/bot/cmake-linux64
+util/bot/cmake-linux64.tar.gz
+util/bot/cmake-mac
+util/bot/cmake-mac.tar.gz
+util/bot/cmake-win32
+util/bot/cmake-win32.zip
+util/bot/golang
+util/bot/gyp
+util/bot/libFuzzer
+util/bot/llvm-build
+util/bot/perl-win32
+util/bot/perl-win32.zip
+util/bot/sde-linux64
+util/bot/sde-linux64.tar.bz2
+util/bot/win_toolchain.json
+util/bot/yasm-win32.exe
